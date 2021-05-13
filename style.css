@@ -31,15 +31,19 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Nunito;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0,5em;
 }
 
 p, a {
-    font-family: Khula;
+    font-family: 'Khula' , sans-serif;
+    line-height: 1.3em;
 }
 
 header {
     height: 112px;
+    background-color: #00A51E;
     border-bottom: 1.5px solid #00A51E;
 }
 
