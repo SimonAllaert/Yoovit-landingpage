@@ -136,7 +136,7 @@ h1 {
 
 #about {
     background-color: #005D35;
-    padding: 100px 80px 0px ;
+    padding: 100px 80px 100px 0px;
     margin:auto;
     color:white
 }
@@ -157,7 +157,7 @@ h1 {
     background-color:#00A51E;
     color:white;
     padding: 40px 20px 20px 20px;
-    margin-top: 130px;
+    
 }
 
 #contact h1{
@@ -250,10 +250,7 @@ textarea{
 
 
     
-    #about {
-        background-color: #00A51E;
-        color:white
-    }
+    
     
     
 
@@ -384,7 +381,7 @@ textarea{
 
         color:white;
         padding: 60px 100px 0 100px;
-        margin-top: 130px;
+        
     }
     
     .contact-text{
