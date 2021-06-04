@@ -1,0 +1,450 @@
+
+/* COLORS
+Lichtgroen: #00a51e
+Donkergroen: #005D35
+Geel: #F59600
+Donkergrijs: #1d1d1d
+/*
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    display: none;
+}
+::-webkit-scrollbar-thumb {
+    background: red;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}
+*/
+
+body {
+    background-color: white;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 0,6em;
+} 
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0,5em;
+}
+
+p, a {
+    font-family: 'Inter' , sans-serif;
+    line-height: 1.5em;
+    font-size: 18px;
+    
+}
+
+
+
+#intro{
+    background-color:#00A51E;
+    color:white;
+    margin-top: 100px;
+}
+
+
+
+
+#hero{
+    display: none;
+    width:100%;
+    margin:auto;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+#store-buttons {
+    grid-column-start: 1;
+    padding: 50px 0 0 5%;
+    display: grid;
+    grid-template-columns: 14.6vw 11.7vw 23vw;
+    grid-template-rows: 15.6vw 5.7vw 5.7vw;
+    margin-left: 50px;
+}
+
+h1 {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    font-size: 3.5vw;
+    
+}
+
+#google-play {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    width: 100%;
+}
+
+#app-store {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    width: 100%;
+    padding: 0.9vw 0 0.9vw 0;
+}
+
+
+
+
+.features{
+    padding: 30px;
+    width:60%;
+    text-align: center;
+    
+}
+
+
+
+.feature {
+    
+    font-size: 18px;
+    padding: 50px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+    box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.5);
+}
+
+.feature h3 {
+    margin-top: 6vh;
+    font-size: 5vw;
+}
+
+.features img {
+   
+    width: 20%
+    
+}
+
+.features p {
+    padding:  3vw 5vw 8vw 5vw;
+    width: 90%;
+    font-size: 2vw;
+    margin:auto;
+}
+
+#about {
+    background-color: #005D35;
+    padding: 100px 80px 0px ;
+    margin:auto;
+    color:white
+}
+
+#about h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#about p{
+    font-size: 13px;
+   
+}
+
+
+/* CONTACT */
+#contact{
+    background-color:#00A51E;
+    color:white;
+    padding: 40px 20px 20px 20px;
+    margin-top: 130px;
+}
+
+#contact h1{
+    padding: 60px 0 20px 0;
+    color:white;
+    font-size: 28px ;
+    
+    
+}
+
+.mail{
+    color:#005D35;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+}
+
+.mail:hover{
+    color:#005D35;
+    margin-bottom: 20px;
+    
+}
+
+#contact p{
+   
+    color:white;
+
+    margin-bottom: 20px;
+  
+    
+}
+
+#contact-form{
+    padding-top: 40px;
+}
+
+label{
+    font-size: 16px;
+    font-family: 'Inter' , sans-serif;
+    padding: 20px 0 8px 0;
+}
+
+input{
+    font-size: 20px;
+    font-family: 'Inter' , sans-serif;
+}
+
+textarea{
+    font-size: 18px;
+    font-family: 'Inter' , sans-serif;
+}
+
+.btn-submit{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color:#005D35;
+    color:white;
+}
+
+.logo{
+    background-image: url(../img/Logo_wit.png);
+    background-repeat: no-repeat;
+    height: auto;
+    opacity: 0.5;
+}
+
+@media (min-width: 768px) {
+  
+    .container_feature{
+        background-image: url(../img/background.png);
+    }
+    .features{
+        padding: 100px;
+        width:90%;
+        text-align: center;
+       
+    }
+    
+    
+    
+   
+    
+
+    #header-logo {
+        width:22%;
+        padding: 15px;
+        margin-left: 80px;
+    }
+
+
+
+    
+    #about {
+        background-color: #00A51E;
+        color:white
+    }
+    
+    
+
+    #hero{
+        width:90%;
+        margin:auto;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    
+}
+
+
+
+@media (min-width: 992px) {
+
+    .features{
+        padding: 110px;
+        width:100%;
+        text-align: center;
+        
+    }
+
+    #store-buttons {
+        grid-column-start: 1;
+        padding: 60px 0 0 10%;
+        display: grid;
+        grid-template-columns: 14.6vw 11.7vw 16vw;
+        grid-template-rows: 15.6vw 5vw 5vw;
+        row-gap: 10px;
+        margin-left: 50px;
+    }
+
+    
+    #main-call-to-action {
+        grid-column-start: 1;
+        grid-row-start: 3z;
+        grid-column-end: 3;
+        margin: 0 0 0 0.9vw;
+        padding: 22px 0 0 0;
+        background-color: #005D35;
+        border-radius: 0.8vw;
+        font-size: 2vw;
+        color: white;
+        text-align: center;
+    
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    h1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        
+        grid-row-start: 1;
+        font-size: 2.8vw;
+        padding: 8vw 0 0 0.9vw;
+    }
+    
+    
+    
+    .feature {
+        font-size: 18px;
+        width:40%;
+        height: 100%;
+        border-radius: 10px;
+        margin: auto;
+        margin-bottom: 40px;
+        box-shadow: 3px 5px 9px rgba(0, 0, 0, 0.5);
+    }
+    
+    .feature h3 {
+        margin-top: 8vh;
+        font-size: 3vw;
+    }
+    
+    .features img {
+        padding: 1vw 0 1vw 0;
+        width: 90px;
+        
+    }
+    
+    .features p {
+        padding: 0vw 3vw 3vw 3vw;
+        font-size: 1vw;
+        margin-bottom: 100px;
+        margin:auto;
+    }
+    
+
+    #header-logo {
+        width:22%;
+        padding: 15px;
+        margin-left: 80px;
+    }
+
+
+    
+    #about h2 {
+        font-size: 42px;
+        padding: 0 0 1.6vw 15%;
+    }
+    
+    #about p {
+        font-size: 18px;
+        padding: 0 0 1.6vw 15%;
+    }
+    #intro{
+        background-color:#00A51E;
+        height:100vh;
+        color:white;
+    }
+
+    #hero{
+        display: block;
+        width:150%;
+        margin-left:-60px;
+        margin-top:-5px;
+        
+        
+    }
+
+    #contact{
+        background-color:#00A51E;
+
+        color:white;
+        padding: 60px 100px 0 100px;
+        margin-top: 130px;
+    }
+    
+    .contact-text{
+        background-color:#00A51E;
+        color:white;
+        padding: 0px 100px 0px 20px !important;
+        
+    }
+
+    
+
+    #contact p{
+       
+        color:white;
+
+        margin-bottom: 20px;
+      
+        
+    }
+
+   
+    
+}
+
+
+.footer {
+    height: 200px;
+    color: white;
+    background-color: #00A51E;
+    width: 100%;
+   
+    
+    
+}
+
+.contact_footer{
+    height: 0px;
+    color: white;
+}
+
+div .col-12{
+    padding: 0px 0px;
+}
+
+
+footer a {
+    margin: 0 0 0 15%;
+    line-height: 125px;
+    
+    text-decoration: none;
+    color: white;
+}
+
+small{
+    display: block;
+    font-size: 12px;
+    position:relative;
+    padding: 35px;
+    font-family: 'Inter', sans-serif;
+    height: 75px;
+    text-align: center;
+    background-color: #005D35;
+}

@@ -1,63 +1,189 @@
 <!DOCTYPE html>
 <html lang="nl">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yoovit</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" href="img/icon.png">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
   </head>
+  
+
+
   <body>
       
+    
     <header>
-      <nav class="nav">
-        <img id="header-logo" src="img/logo_white.png" alt="Yoovit logo">
+      <nav class="navigation navbar fixed-top ">
+        <div class="nav-logo"><a class="navbar-brand" href="index.html">
+        <img id="header-logo" src="img/icon_wit.png" alt="Yoovit logo"></a></div>
+        <ul class="nav-menu">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="">The app</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-toggle">
+          <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+        </div>
       </nav>
     </header>
+    
+  
 
     <main>
-      <section id="intro">
-        <div id="hero-container">
-          <div id="hero-div"></div>
-          <img id="hero" src="img/hero.png" alt="Two people walking">
-        </div>
-        <div id="store-buttons">
-          <h1>Haal meer uit jouw uitstap</h1>
-          <img id="google-play" src="img/google-play.png" alt="Get it on Google Play">
-          <img id="app-store" src="img/app-store.png" alt="Download on the App Store">
-          <h2 id="main-call-to-action">Komt binnenkort</h2>
-        </div>
-      </section>
-
-      <section id=features>
-        <div>
-          <h3>Move</h3>
-          <img src="img/move.png" alt="Illustration of a route">
-          <p>Creëer routes en bezoek locaties waar jouw favoriete films en series zijn opgenomen.</p>
-        </div>
-        <div>
-          <h3>Discover</h3>
-          <img src="img/discover.png" alt="Illustration of discorver">
-          <p>Ontdek film locaties in jouw omgeving en leer fijne weetjes over vele films en series.</p>
-        </div>
-      </section>
       
-      <section id="about">
-        <h2>Over Yoovit</h2>
-        <p>Yoovit zet film locaties op een kaart en laat je daartussen routes maken.</p>
-        <p>Wij willen jouw wandelingen en fietstochen dat beetje extra geven. Bij elke stop voorzien we wat info over de film of serie met trivia vragen.</p>
-        <p>Ons doel is om je het maximum uit je uitstap te laten halen!</p>
-      </section>
+      <div class="container-fluid " id="intro">
+        <div class="row">
+          <div class="col-12 col-lg-6 ">
+          <div id="store-buttons">
+            <h1 >Haal meer uit jouw uitstap samen met Yoovit.</h1>
+            
+           <h2 id="main-call-to-action">Demo</h2>
+
+            <img id="google-play" src="img/google-play.png" alt="Get it on Google Play">
+            <img id="app-store" src="img/app-store.png" alt="Download on the App Store">
+            
+          </div>
+
+        </div>
+          <div class="col-12 col-lg-4 ">
+              <img id="hero" src="img/yoovit_mobile.png" alt="Mockup phones">
+          </div>
+            
+          
+            
+           
+          </div>
+        </div>
+      </div>
+    
+
+
+    <div class="container-fluid containerfeature">
+      <div class="container-fluid features">
+        <div class="row">
+          <div class="col-12 col-lg-6 feature" >
+            <h3>Move</h3>
+            <img src="img/move.png" alt="Illustration of a route">
+            <p>Creëer routes en bezoek locaties waar jouw favoriete films en series zijn opgenomen.</p>
+  
+          </div>
+        
+  
+          <div class="col-12 col-lg-6 feature">
+            <h3>Discover</h3>
+            <img src="img/discover.png" alt="Illustration of discorver">
+            <p>Ontdek film locaties in jouw omgeving en leer fijne weetjes over vele films en series.</p>
+         
+          </div>
+        </div>
+      </div>
+      
+    </div>
+      
+
+    <div class="container-fluid " id="about">
+      <div class="row ">
+        <div class="col-12 col-md-6 " >
+          <h2>Over Yoovit</h2>
+          <p>Yoovit zet film locaties op een kaart en laat je daartussen routes maken. Wij willen jouw wandelingen en fietstochen dat beetje extra geven. Bij elke stop voorzien we wat info over de film of serie met trivia vragen.
+          Ons doel is om je het maximum uit je uitstap te laten halen!</p>
+        
+      </div>
+      
+        
+      
+    </div>
+    </div>
+     
+
+        <section id="contact" >
+          <div class="container-fluid">
+                  
+                  <div class="row">
+                  
+                      <div class="col-12 col-lg-5 contact-text">
+                      
+                          <h1>Say hello</h1>
+  
+                          <p>Aarzel niet om ons een berichtje te sturen via 
+                              mail of via dit contactformulier indien 
+                              je meer info wenst of als er vragen zijn. </p>
+                              
+                         
+                          <a class="mail" href="mailto:info@yoovit.be">info@yoovit.be</a>
+                          
+                      
+                      </div>
+                      
+                  
+                      <!--=== Contact Form ===-->
+  
+                      <form id="contact-form" class="col-12 col-lg-7 " action="includes/mail.php">
+                          
+                          <div class="form-group">
+                            <label class="control-label" for="contact-name">Naam</label>
+                            <div class="controls">
+                              <input id="contact-name" name="contactName" placeholder="Naam + Voornaam" class="form-control requiredField" data-new-placeholder="Name" type="text" data-error-empty="Please enter your name">
+                              <i class="fa fa-user"></i>
+                            </div>
+                          </div><!-- End name input -->
+                          
+                          <div class="form-group">
+                            <label class="control-label" for="contact-mail">Email</label>
+                            <div class=" controls">
+                              <input id="contact-mail" name="email" placeholder="Email" class="form-control requiredField" data-new-placeholder="Email" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+                              <i class="fa fa-envelope"></i>
+                            </div>
+                          </div><!-- End email input -->
+                          
+                          <div class="form-group">
+                            <label class="control-label" for="contact-message">Bericht</label>
+                              <div class="controls">
+                                  <textarea id="contact-message" name="message"  placeholder="Typ hier je bericht!" class="form-control requiredField" data-new-placeholder="Message" rows="6" data-error-empty="Please enter your message"></textarea>
+                                  <i class="fa fa-comment"></i>
+                              </div>
+                          </div><!-- End textarea -->
+                          
+                          <p><button name="submit" type="submit" class="btn btn-submit  btn-color2 btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Verzenden</button></p>
+                          <input type="hidden" name="submitted" id="submitted" value="true" />
+                          
+                      </form><!-- End contact-form -->
+                      
+                  </div>
+                  
+              </div>
+          
+          </section>
+
+
+
+
+
     </main>
 
     <footer>
-      <a href="mailto:info@yoovit.be">info@yoovit.be</a>
-      <div><small>©Yoovit</small></div>
-    </footer>
-
+      <div class="container-fluid contact_footer">
+        
+        <div class="row">
+          <div class="col-12" >
+            <small>Copyright © 2021 - Yoovit . All rights reserved. </small>
+          </div>
+        </div>
+        </div>
+      </div>
+  </footer>
+    <script src="js/app.js"></script>
   </body>
 </html>
